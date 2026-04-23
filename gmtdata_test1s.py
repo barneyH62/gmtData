@@ -385,7 +385,7 @@ def main():
         input("按回车键退出...")
         return
 
-    file_path = input_dir / "gmt海关交易数据查询条件input20260419.xlsx"  # 【修改为你的文件名】
+    file_path = input_dir / "gmt海关交易数据查询条件input20260423.xlsx"  # 【修改为你的文件名】
     df = pd.read_excel(file_path)
 
     # 确保列名与预期一致
