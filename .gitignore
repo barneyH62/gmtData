@@ -1,0 +1,32 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Python 缓存
+__pycache__/
+.env
+*.pyc
+*.pyo
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+
+# 爬取的数据文件（重要！）
+output/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.db
+
+# 敏感信息
+config_local.py
+*.log
+*.pkl
+
+# 其他
+.DS_Store
+.vscode/
